@@ -1,0 +1,17 @@
+.scroll__top {
+    position: fixed;
+    right: 5%;
+    font-size: 2.2rem;
+    width: max-content;
+    bottom: 2rem;
+    color: var(--color-light);
+}
+
+/* MEDIA QUERIES FOR SMALL DEVICES*/
+
+@media screen and (max-width: 600px) {
+    .scroll__top {
+        display: none;
+    }
+
+}
