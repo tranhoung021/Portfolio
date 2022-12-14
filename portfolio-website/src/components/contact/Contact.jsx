@@ -28,18 +28,18 @@ const Contact = () => {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
+          <a className="contact__option" href="mailto:majinht@hotmail.com" target="_blank">
             <IoMailOutline className='contact__option-icon' />
             <h4>Email</h4>
             <h5>majinht@hotmail.com</h5>
             <a href="mailto:majinht@hotmail.com" target="_blank">Send a message</a>
-          </article>
-          <article className="contact__option">
+          </a>
+          <a className="contact__option" href="tel:+46724480033" target="_blank">
             <BsTelephone className='contact__option-icon' />
             <h4>Phone</h4>
             <h5>0724480033</h5>
-            <a href="tel:+46724480033" target="_blank">Send a message</a>
-          </article>
+            <a href="tel:+46724480033" target="_blank">Contact me</a>
+          </a>
         </div>
 
         <form ref={form} onSubmit={sendEmail}>

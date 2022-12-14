@@ -21,7 +21,7 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-          <article className="about__card">
+            <article className="about__card">
               <MdComputer className='about__icon' />
               <h5>Experience</h5>
               <small>1+ years</small>
@@ -37,16 +37,15 @@ const About = () => {
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
               <small>30+ Completed</small>
-            </article>            
+            </article>
           </div>
 
           <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Eius architecto cumque laborum deserunt nisi veniam natus nobis quia fuga
-              aperiam facilis optio aliquam corporis vero sunt illo, dolores placeat voluptatibus.
-            </p>
+            I am a calm and practical person who works best with fixed routines but do not mind trying new things. I am also keen and like to work in groups.
+            In terms of my attention to detail and commitment to solving any problems is what sets me apart from other candidates as well as my basic principles as a person. I look forward to also developing myself more about innovative solutions.
+          </p>
 
-            <a href="#contact" className="btn btn-primary">Contact me</a>
+          <a href="#contact" className="btn btn-primary">Contact me</a>
         </div>
 
       </div>

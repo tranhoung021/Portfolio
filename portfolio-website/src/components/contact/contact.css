@@ -18,11 +18,13 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+    color: var(--color-white);
 }
 
 .contact__option:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
+    color: var(--color-white);
 }
 
 .contact__option-icon {
@@ -34,6 +36,7 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
+    color: var(--color-white);
 }
 
 form {
